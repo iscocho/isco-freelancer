@@ -1,0 +1,85 @@
+body {
+    background-color: #1f3169; /* Royal Blue */
+    color: white;
+}
+
+.referral-container{
+    max-width: 400px;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(rgb(173, 160, 160), rgb(146, 224, 146), rgb(20, 20, 199), alpha);
+    text-align: center;
+}
+
+#referral-link{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+#copy-btn{
+    background-color: rgb(135, 206, 235);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#copy-btn:hover{
+    background-color: black;
+}
+
+.social-share{
+    margin-top: 20px;
+}
+
+.social-share a{
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Make social icons round and centered with background */
+.social-share a svg {
+    background: white;
+    border-radius: 50%;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: inline-block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-share a.facebook svg {
+    background: #fff; /* White background */
+}
+.social-share a.whatsApp svg {
+    background: #fff; /* White background */
+}
+.social-share a.twitter svg {
+    background: #fff; /* White background */
+}
+.social-share a.tiktok svg {
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.social-share a svg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.facebock-buttonq {
+    background-color: rgb(34, 34, 236);
+    width: 10px;
+
+}
+
+.facebook-button:hover{
+    background-color: blue;
+}
